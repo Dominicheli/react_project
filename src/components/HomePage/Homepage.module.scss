@@ -1,0 +1,75 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(87, 87, 87);
+}
+
+.title {
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.logo_nubank {
+  width: 350px;
+  height: 250px;
+}
+.logo_bradesco {
+  width: 250px;
+  height: 250px;
+}
+
+.nubank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 40%;
+  height: 500px;
+  border-radius: 30px;
+  background-color: #8A05BE;
+  transition: ease 1s;
+  cursor: pointer;
+  h2 {
+    font-size: 50px;
+  }
+}
+
+.nubank:hover {
+  background-color: #BA4DE3;
+  transition: ease 1s;
+}
+
+.bradesco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 40%;
+  height: 500px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #CC092F, #633280);
+  transition: ease 1s;
+  cursor: pointer;
+
+  h2 {
+    font-size: 50px;
+  }
+}
+
+.bradesco:hover {
+  filter:brightness(120%);
+  transition: ease 1s;
+}
